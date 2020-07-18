@@ -14,21 +14,7 @@
  * limitations under the License.
  */
 
-package org.leadpony.peace;
-
-import org.apache.catalina.connector.Request;
-import org.apache.catalina.connector.Response;
-import org.apache.catalina.valves.ErrorReportValve;
-
 /**
- * An error report valve which outputs nothing.
- *
  * @author leadpony
  */
-public class EmptyErrorReportValve extends ErrorReportValve {
-
-    @Override
-    protected void report(Request request, Response response, Throwable throwable) {
-        response.setErrorReported();
-    }
-}
+package org.leadpony.postwar;

@@ -5,15 +5,15 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.leadpony.peace</groupId>
-    <artifactId>peace</artifactId>
-    <version>1.0.0</version>
+    <groupId>org.leadpony.postwar</groupId>
+    <artifactId>postwar</artifactId>
+    <version>1.1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Peace</name>
+    <name>Postwar</name>
 
     <properties>
-        <maven.compiler.release>9</maven.compiler.release>
+        <maven.compiler.release>11</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <tomcat.version>9.0.30</tomcat.version>
     </properties>
@@ -43,7 +43,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
-                <version>3.1.0</version>
+                <version>3.1.1</version>
                 <configuration>
                     <configLocation>checkstyle.xml</configLocation>
                     <excludes>**/module-info.java</excludes>
@@ -83,7 +83,7 @@
 
     <!-- project information  -->
 
-    <url>https://github.com/leadpony/peace</url>
+    <url>https://github.com/leadpony/postwar</url>
     <inceptionYear>2020</inceptionYear>
 
     <licenses>
@@ -95,14 +95,14 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:https://github.com/leadpony/peace.git</connection>
-        <developerConnection>scm:git:git@github.com:leadpony/peace.git</developerConnection>
-        <url>https://github.com/leadpony/peace</url>
+        <connection>scm:git:https://github.com/leadpony/postwar.git</connection>
+        <developerConnection>scm:git:git@github.com:leadpony/postwar.git</developerConnection>
+        <url>https://github.com/leadpony/postwar</url>
     </scm>
 
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/leadpony/peace/issues</url>
+        <url>https://github.com/leadpony/postwar/issues</url>
     </issueManagement>
 
     <developers>

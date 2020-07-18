@@ -1,6 +1,6 @@
-# Peace
+# Postwar
 
-Peace is a collection of Tomcat valves postprocessing Web requests after war(s).
+Postwar is a collection of Tomcat valves postprocessing Web requests after war(s).
 
 ## How to Use
 ### Installation
@@ -8,7 +8,7 @@ Peace is a collection of Tomcat valves postprocessing Web requests after war(s).
 Download the latest jar file from the [Releases] page and copy it into Tomcat lib directory.
 
 ## Copyright Notice
-Copyright 2019-2020 the original author or authors. All rights reserved.
+Copyright 2019, 2020 the original author or authors. All rights reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this product except in compliance with the License.
@@ -21,4 +21,4 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-[Releases]: https://github.com/leadpony/peace/releases/latest
+[Releases]: https://github.com/leadpony/postwar/releases/latest

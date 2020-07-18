@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.leadpony.peace;
+package org.leadpony.postwar;
 
 import java.io.IOException;
 import java.io.Writer;
